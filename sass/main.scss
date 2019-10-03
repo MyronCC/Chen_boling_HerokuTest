@@ -1,5 +1,88 @@
+@import "_vars";
+
 main {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
+}
+
+
+header {
+    text-align: center;
+    
+}
+
+
+#banner {
+    text-align: center;
+    padding: 0 5% 0 5%;
+    background-color: #fff;
+    
+    img{
+        width: 50%;
+    }
+
+    #bannerDescript {
+        h2 {
+            font-size: 5.1vw;
+            line-height: 1;
+            font-family: 'Arial';
+            color: #000;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 1.3;
+            font-family: 'Arial';
+            color: #000;
+            margin: 0 10% 0 10%;
+            
+        }
+
+        padding-bottom: 5%;
+    }
+}
+
+.mainContent
+{
+    margin: 10% 0 10% 0;
+    text-align: center;
+
+    
+    p {
+        font-size: 22px;
+            line-height: 1.3;
+            font-family: 'Arial';
+            color: #fff;
+        margin: 5% 10% 5% 10%;
+    }
+}
+
+.contentTitle
+{
+    img {
+        text-align: center;
+        width:10%;
+        margin-bottom: -2%;
+    }
+    text-align: center;
+}
+
+.modes {
+    width: 60%;
+    border-radius: 5%;
+}
+
+footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 5% 0 5% 0;
+
+    a {
+        text-decoration: none;
+        font-size: 22px;
+            line-height: 1.3;
+            font-family: 'Arial';
+            color: #000;
+    }
 }
